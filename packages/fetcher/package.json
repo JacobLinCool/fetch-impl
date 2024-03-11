@@ -1,0 +1,40 @@
+{
+	"private": true,
+	"name": "@fetch-impl/fetcher",
+	"description": "User Configurable Fetch Implementation.",
+	"version": "0.0.0",
+	"author": "JacobLinCool <jacoblincool@gmail.com> (https://jacoblin.cool)",
+	"license": "MIT",
+	"keywords": [
+		"fetch"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js",
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.mjs"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"build:docs": "typedoc --out docs src"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.25",
+		"tsup": "^8.0.2",
+		"typedoc": "^0.25.12",
+		"typescript": "^5.4.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/fetch-impl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
+	},
+	"homepage": "https://jacoblincool.github.io/fetch-impl"
+}

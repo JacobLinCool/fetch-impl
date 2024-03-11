@@ -1,0 +1,46 @@
+{
+	"private": true,
+	"name": "@fetch-impl/cross-fetch",
+	"description": "User Configurable Fetch Implementation. cross-fetch adapter.",
+	"version": "0.0.0",
+	"author": "JacobLinCool <jacoblincool@gmail.com> (https://jacoblin.cool)",
+	"license": "MIT",
+	"keywords": [
+		"fetch",
+		"cross-fetch"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js",
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.mjs"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"build:docs": "typedoc --out docs src"
+	},
+	"peerDependencies": {
+		"@fetch-impl/fetcher": "workspace:^",
+		"cross-fetch": "*"
+	},
+	"devDependencies": {
+		"@fetch-impl/fetcher": "workspace:^",
+		"@types/node": "^20.11.25",
+		"tsup": "^8.0.2",
+		"typedoc": "^0.25.12",
+		"typescript": "^5.4.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/fetch-impl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
+	},
+	"homepage": "https://jacoblincool.github.io/fetch-impl"
+}

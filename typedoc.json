@@ -1,0 +1,6 @@
+{
+	"entryPoints": ["packages/*"],
+	"name": "@fetch-impl",
+	"entryPointStrategy": "packages",
+	"includeVersion": true
+}

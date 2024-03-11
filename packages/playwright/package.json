@@ -1,0 +1,59 @@
+{
+	"private": true,
+	"name": "@fetch-impl/playwright",
+	"description": "User Configurable Fetch Implementation. Playwright adapter, supports fetch in real browser (chromium, firefox, webkit).",
+	"version": "0.0.0",
+	"author": "JacobLinCool <jacoblincool@gmail.com> (https://jacoblin.cool)",
+	"license": "MIT",
+	"keywords": [
+		"fetch",
+		"playwright"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.js",
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.mjs"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"build:docs": "typedoc --out docs src"
+	},
+	"dependencies": {
+		"debug": "^4.3.4"
+	},
+	"peerDependencies": {
+		"@fetch-impl/fetcher": "workspace:^",
+		"playwright": "*",
+		"playwright-core": "*"
+	},
+	"peerDependenciesMeta": {
+		"playwright": {
+			"optional": true
+		},
+		"playwright-core": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"@fetch-impl/fetcher": "workspace:^",
+		"@types/debug": "^4.1.12",
+		"@types/node": "^20.11.25",
+		"tsup": "^8.0.2",
+		"typedoc": "^0.25.12",
+		"typescript": "^5.4.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/fetch-impl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
+	},
+	"homepage": "https://jacoblincool.github.io/fetch-impl"
+}
