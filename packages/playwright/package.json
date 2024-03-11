@@ -1,5 +1,4 @@
 {
-	"private": true,
 	"name": "@fetch-impl/playwright",
 	"description": "User Configurable Fetch Implementation. Playwright adapter, supports fetch in real browser (chromium, firefox, webkit).",
 	"version": "0.0.0",
@@ -55,5 +54,8 @@
 	"bugs": {
 		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
 	},
-	"homepage": "https://jacoblincool.github.io/fetch-impl"
+	"homepage": "https://jacoblincool.github.io/fetch-impl",
+	"publishConfig": {
+		"provenance": true
+	}
 }

@@ -1,5 +1,4 @@
 {
-	"private": true,
 	"name": "@fetch-impl/fetcher",
 	"description": "User Configurable Fetch Implementation.",
 	"version": "0.0.0",
@@ -36,5 +35,8 @@
 	"bugs": {
 		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
 	},
-	"homepage": "https://jacoblincool.github.io/fetch-impl"
+	"homepage": "https://jacoblincool.github.io/fetch-impl",
+	"publishConfig": {
+		"provenance": true
+	}
 }

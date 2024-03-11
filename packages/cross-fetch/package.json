@@ -1,5 +1,4 @@
 {
-	"private": true,
 	"name": "@fetch-impl/cross-fetch",
 	"description": "User Configurable Fetch Implementation. cross-fetch adapter.",
 	"version": "0.0.0",
@@ -42,5 +41,8 @@
 	"bugs": {
 		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
 	},
-	"homepage": "https://jacoblincool.github.io/fetch-impl"
+	"homepage": "https://jacoblincool.github.io/fetch-impl",
+	"publishConfig": {
+		"provenance": true
+	}
 }
