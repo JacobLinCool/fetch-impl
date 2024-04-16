@@ -1,7 +1,7 @@
 {
 	"name": "@fetch-impl/puppeteer",
 	"description": "User Configurable Fetch Implementation. Puppeteer adapter, supports fetch in real browser.",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"author": "JacobLinCool <jacoblincool@gmail.com> (https://jacoblin.cool)",
 	"license": "MIT",
 	"keywords": [
