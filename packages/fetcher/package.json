@@ -23,10 +23,10 @@
 		"build:docs": "typedoc --out docs src"
 	},
 	"devDependencies": {
-		"@types/node": "^20.11.25",
+		"@types/node": "^20.12.7",
 		"tsup": "^8.0.2",
-		"typedoc": "^0.25.12",
-		"typescript": "^5.4.2"
+		"typedoc": "^0.25.13",
+		"typescript": "^5.4.5"
 	},
 	"repository": {
 		"type": "git",
