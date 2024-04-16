@@ -6,6 +6,7 @@ Can be used as a global fetch implementation or as a local fetch implementation 
 
 -   [@fetch-impl/cross-fetch](https://www.npmjs.com/package/@fetch-impl/cross-fetch) - Use [cross-fetch](https://www.npmjs.com/package/cross-fetch) as the fetch implementation.
 -   [@fetch-impl/playwright](https://www.npmjs.com/package/@fetch-impl/playwright) - Use [playwright](https://www.npmjs.com/package/playwright) browser as the fetch implementation.
+-   [@fetch-impl/puppeteer](https://www.npmjs.com/package/@fetch-impl/puppeteer) - Use [puppeteer](https://www.npmjs.com/package/puppeteer) browser as the fetch implementation.
 
 ## Usage
 
