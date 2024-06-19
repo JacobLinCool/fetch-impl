@@ -39,5 +39,5 @@
 		"url": "https://github.com/JacobLinCool/fetch-impl/issues"
 	},
 	"homepage": "https://jacoblincool.github.io/fetch-impl",
-	"packageManager": "pnpm@9.0.1"
+	"packageManager": "pnpm@9.4.0"
 }
