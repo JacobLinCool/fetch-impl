@@ -2,7 +2,7 @@
  * User Configurable Fetch Implementation.
  */
 export class Fetcher {
-	fetch = globalThis.fetch;
+	fetch = globalThis.fetch.bind(globalThis);
 
 	/**
 	 * Sets the fetch function to be used.
